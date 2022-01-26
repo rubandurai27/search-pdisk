@@ -80,7 +80,7 @@ def movie(msg, username, chat_id, msg_id):
             reply_markup2 = InlineKeyboardMarkup(keyboard2)
             reply_msg = 'If the \'MOVIE NAME\' is incorrect please check the spelling in google.'
             bot.send_message(chat_id=chat_id, text=reply_msg, reply_markup=reply_markup1, reply_to_message_id=msg_id)
-            bot.send_message(chat_id=chat_id, text=, reply_markup=reply_markup2, reply_to_message_id=msg_id)
+            bot.send_message(chat_id=chat_id, text=reply_msg, reply_markup=reply_markup2, reply_to_message_id=msg_id)
             bot.send_message(chat_id=admin_chat_id1, text=)
             bot.send_message(chat_id=admin_chat_id2, text=)
     except:
