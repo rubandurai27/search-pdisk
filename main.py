@@ -23,7 +23,7 @@ def start_command(update, context):
     1.Search
     2.Click
     3.Enjoy
-    Developed by @NklRockers
+    Developed by @JOKERBOTS
     '''
     chat_id = update.message.chat.id
 
